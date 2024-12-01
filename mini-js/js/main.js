@@ -97,7 +97,7 @@ function randomNumber()
     let number = Math.floor(Math.random()*100)
     for(let count=1; count<=10; count++)
     {
-        let result = +prompt(`Попытка номер ${count}. Введите число:`)
+        let result = +prompt(`Попытка номер ${count}. Введите число от 1 до 100:`)
         if (result == number)
         {
             return alert(`Вы угадали число. Число попыток: ${count}. Число: ${number}`)
