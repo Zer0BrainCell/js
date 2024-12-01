@@ -108,7 +108,7 @@ function randomNumber()
         else if(result>number) {
             alert(`Ваше число ${result} больше загаданного. Число попыток: ${count}`)
         }
-        else {return alert(`Вы не угадали число. Число: ${number}`)}
     }
+    return alert(`Вы не угадали число. Число: ${number}`)
 }
 randomNumber()
